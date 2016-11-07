@@ -1,0 +1,53 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="page-header" style="text-align:center;">
+            <h1>Can You Quit Your Day Job?<br /><small>Calculator for your road to Financial Independence</small></h1>
+        </div>
+        <div class="panel panel-default">
+            <form action="" id="calculator">
+            <div class="panel-body">
+                <div class="col-sm-6 form-group">
+                    <b>Job Income: Monthly</b><br />
+                    <input type="text" class="form-control" id="jobincome" placeholder="Job Income" onblur="">
+                </div>
+                <div class="col-sm-6 form-group">
+                    <b>Supplemental Income: Monthly</b><br />
+                    <input type="text" class="form-control" id="sidehustle" placeholder="a.k.a. Side Hustle" onblur="">
+                </div>
+                <div class="col-sm-4 form-group">
+                    <b>Total Investments</b><br />
+                    <input type="text" class="form-control" id="totalinvest" placeholder="Current Investments">
+                </div>
+                <div class="col-sm-4 form-group">
+                    <b>Monthly Contribution</b><br />
+                    <input type="text" class="form-control" id="moninvest" placeholder="$600" onblur="">
+                </div>
+                <div class="col-sm-4 form-group">
+                    <b>Interest Rate</b><br />
+                    <input type="text" class="form-control" id="interest" value="0.07" onblur="" readonly>
+                </div>
+                <div class="col-sm-12 form-group">
+                    <b>Monthly Expenses</b><br />
+                    <input type="text" class="form-control" id="expenses" placeholder="$2500" onblur="">
+                </div>
+                <div class="col-sm-12 form-group">
+                    <b>Your Results</b><br />
+                    <div class="alert alert-success" role="alert" id="results"></div>
+                </div>
+                
+                
+                
+            </div>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
